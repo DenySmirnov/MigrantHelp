@@ -65,6 +65,8 @@ def start(message):
             if(message.text == "🏠 Заповнити форму"):
                 bot.send_message(message.chat.id, text="In progress🛠🛠🛠")
 
+#Я типу шо зробив
+
 #@bot.message_handler(content_types=['text'])
 #def funct(message):
     #user_id = message.chat.id
@@ -76,4 +78,4 @@ def start(message):
     #print(check)
     #if(check == "0"):
     #    bot.send_message(message.chat.id, text="Бот був на доробці через що був зупинений🛠\nПропишіть заново команду /start".format(message.from_user))
-#bot.infinity_polling()
+bot.infinity_polling()
